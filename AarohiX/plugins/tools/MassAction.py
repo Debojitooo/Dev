@@ -261,7 +261,7 @@ async def handle_kickall_callback(client: Client, callback_query: CallbackQuery)
 @app.on_message(
     filters.command("done")
     & filters.private
-    & filters.user(7518534563)
+    & filters.user(1052050212)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
@@ -271,7 +271,7 @@ async def help(client: Client, message: Message):
              [
                  [
                       InlineKeyboardButton(
-                         "• ву  •", url=f"https://t.me/APNA_SYSTEM")
+                         "• ву  •", url=f"https://t.me/DEV_UPDATE")
                  ]
             ]
          ),
